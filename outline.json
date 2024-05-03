@@ -1,0 +1,65 @@
+{
+	"Title": "Can Geographic Location be Used to Improve Stock Market Decisions?",
+	"Data": {
+		"Yahoo Finance": "Provides stock prices, market trends, financial news, and historical market data.",
+		"Edgar": "Offers access to financial statements and disclosures from publicly traded companies in the U.S."
+	},
+	"Analytics": {
+		"Descriptive": {
+			"Summarization": [
+				"Utilize summary statistics (mean, median, mode, variance, etc.) and other descriptive statistics to understand the current state of stock performance across different geographic locations.",
+				{
+					"Stock Performance by Region": "Calculate the mean, median, and standard deviation of returns for stocks grouped by the region they operate in or are heavily influenced by.",
+					"Volatility Analysis": "Compute the variance and standard deviation of stock prices by region to assess the risk associated with investments in different regions.",
+					"Frequency Distribution": "Create a frequency distribution to show the number of listed companies per region."
+				}
+			],
+			"Visualization": [
+				"Create charts and maps to visually summarize how stock performances correlate with geographic locations.",
+				{
+					"Stock Performance by State": "Create a heat map showing average ROI by state based on historical data."
+				}
+			]
+		},
+		"Diagnostic": {
+			"Anomalies/Outlier Analysis": [
+				"Identify unusual stock performance in specific regions and investigate potential causes.",
+				{
+					"Identify Outliers": "Use statistical methods to detect outliers in stock returns for each region.",
+					"Examine Outliers": "Examine the outliers to see if there are any common factors among them."
+				}
+			],
+			"Variance Analysis": [
+				"Examine the relationship between region and stock performance to discover hidden patterns.",
+				{
+					"ANOVA": "Utilize ANOVA to determine if there are any statistically significant differences between the means of each region.",
+					"Kruskal-Wallis": "Utilize Kruskal-Wallis to determine if there are any statistically significant differences between the means of each region."
+				}
+			]
+		},
+		"Predictive Analytics": {
+			"Regression Analysis": [
+				"Predict future stock performance based on geographic economic indicators.",
+				{
+					"Target Encoding": "Encode state variable for regression.",
+					"Regression Analysis": "Conduct multiple linear regression."
+				}
+			],
+			"Cluster Analysis": [
+				"Group stocks based on similar performance trends across different geographic locations.",
+				{
+					"Clustering": "Conduct k-means clustering.",
+					"Cluster Map": "Create a map of clusters."
+				}
+			]
+		},
+		"Prescriptive Analytics": {
+			"Optimization": [
+				"Develop models to find optimal stock picks based on geographic diversification.",
+				{
+					"Markowitz Portfolio": "This foundational financial theory uses mean-variance analysis to craft an efficient frontier from which optimal portfolios can be selected."
+				}
+			]
+		}
+	}
+}
